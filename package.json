@@ -7,14 +7,18 @@
     },
     "name": "version-select",
     "description": "This package allows you to update the version of the package.json file depending on the selected option.",
-    "version": "1.0.8",
+    "version": "1.0.11",
     "main": "index.js",
-    "devDependencies": {},
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^8.2.1"
+    },
     "scripts": {
-        "version-select": "node cli.js"
+        "version-select": "node cli.js",
+        "test": "mocha"
     },
     "bin": {
-        "version-select": "./cli.js"
+        "version-select": "cli.js"
     },
     "repository": {
         "type": "git",
