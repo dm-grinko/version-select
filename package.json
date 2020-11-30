@@ -13,8 +13,7 @@
     "main": "index.js",
     "scripts": {
         "version-select": "node cli.js",
-        "test": "./node_modules/.bin/_mocha --exit --reporter spec",
-        "test2": "make test"
+        "test": "make test"
     },
     "bin": {
         "version-select": "cli.js"

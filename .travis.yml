@@ -3,6 +3,9 @@ language: node_js
 node_js:
     - "14.15.1"
 
+before_install:
+  - npm install -g npm@latest
+install:
+  - npm install --dev
 script:
-    - npm ci
-    - make test
+  - npm test
