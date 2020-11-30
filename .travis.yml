@@ -1,15 +1,21 @@
 language: node_js
+
 node_js:
-  - "node"
-  - "10"
-  - "9"
-  - "8"
-  - "7"
-  - "6"
+- "node"
+- "10"
+- "9"
+- "8"
+- "7"
+- "6"
+
 before_install:
-  - npm install -g npm@latest
+- npm install -g npm@latest
+- npm install -g mocha
+
 install:
-  - npm install --dev
+- npm install --dev
+
 script:
-  - npm test
+- npm test
+
 after_success: npm run coverage
