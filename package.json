@@ -13,7 +13,7 @@
     "main": "index.js",
     "scripts": {
         "version-select": "node cli.js",
-        "test": "mocha"
+        "test": "make test"
     },
     "bin": {
         "version-select": "cli.js"
