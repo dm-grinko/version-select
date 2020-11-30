@@ -6,8 +6,8 @@
         "fs": "^0.0.1-security"
     },
     "name": "version-select",
-    "description": "This package allows updating the package.json file's version based on a selected option",
-    "version": "1.0.6",
+    "description": "This package allows you to update the version of the package.json file depending on the selected option.",
+    "version": "1.0.8",
     "main": "index.js",
     "devDependencies": {},
     "scripts": {
