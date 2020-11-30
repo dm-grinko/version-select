@@ -10,4 +10,4 @@ install:
   - npm ci
 
 script:
-  - npm run test
+  - make test
