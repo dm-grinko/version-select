@@ -1,3 +1,5 @@
 test:
-	@NODE_ENV=test ./node_modules/.bin/mocha
+	@echo "  Testing..."
+	@node ./node_modules/.bin/mocha
+	@echo "  Done!"
 .PHONY: test
