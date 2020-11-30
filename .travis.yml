@@ -1,13 +1,15 @@
 language: node_js
-
 node_js:
-- "14.15.1"
-
+  - "node"
+  - "10"
+  - "9"
+  - "8"
+  - "7"
+  - "6"
 before_install:
-- npm install -g npm@latest
-
+  - npm install -g npm@latest
 install:
-- npm install
-
+  - npm install --dev
 script:
-- npm test
+  - npm test
+after_success: npm run coverage
