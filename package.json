@@ -1,0 +1,42 @@
+{
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "cli-select": "^1.1.2",
+        "colors": "^1.4.0",
+        "fs": "^0.0.1-security"
+    },
+    "name": "version-select",
+    "description": "This package allows you to update the version of the package.json file depending on the selected option.",
+    "version": "1.0.13",
+    "main": "index.js",
+    "scripts": {
+        "version-select": "node cli.js",
+        "test": "mocha || true"
+    },
+    "bin": {
+        "version-select": "cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dm-grinko/version-select.git"
+    },
+    "keywords": [
+        "npm",
+        "package.json",
+        "version",
+        "select",
+        "options",
+        "update",
+        "change"
+    ],
+    "author": "Dmitry Grinko",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dm-grinko/version-select/issues"
+    },
+    "homepage": "https://github.com/dm-grinko/version-select#readme",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "mocha": "^8.2.1"
+    }
+}
