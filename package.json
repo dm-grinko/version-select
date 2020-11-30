@@ -1,18 +1,16 @@
 {
     "dependencies": {
+        "chai": "^4.2.0",
         "chalk": "^4.1.0",
         "cli-select": "^1.1.2",
         "colors": "^1.4.0",
-        "fs": "^0.0.1-security"
+        "fs": "^0.0.1-security",
+        "mocha": "^8.2.1"
     },
     "name": "version-select",
     "description": "This package allows you to update the version of the package.json file depending on the selected option.",
     "version": "1.0.11",
     "main": "index.js",
-    "devDependencies": {
-        "chai": "^4.2.0",
-        "mocha": "^8.2.1"
-    },
     "scripts": {
         "version-select": "node cli.js",
         "test": "mocha"
