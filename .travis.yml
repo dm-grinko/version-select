@@ -1,11 +1,12 @@
 language: node_js
 
 node_js:
-- "node"
 - "10"
 
+cache:
+  npm: false
+
 before_install:
-- npm install -g npm@latest
 - npm install -g mocha
 
 install:
