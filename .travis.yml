@@ -5,20 +5,8 @@ language: node_js
 node_js:
   - "node"
 
-env:
-  - CXX=g++-4.8
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-4.8
-
 cache:
   npm: false
-
-before_install:
-  - npm install -g mocha
 
 install:
   - npm ci
