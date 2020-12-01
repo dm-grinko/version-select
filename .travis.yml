@@ -1,17 +1,8 @@
-sudo: false
-
-language: node_js
-
+language: "node_js"
 node_js:
-  - "14"
-
-cache:
-  npm: false
-
+    - "node"
 install:
   - npm ci
-
 script:
   - npm test
-
 after_success: npm run coverage
