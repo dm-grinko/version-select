@@ -11,7 +11,7 @@
     "main": "index.js",
     "scripts": {
         "version-select": "node cli.js",
-        "test": "mocha || true"
+        "test": "mocha ./test --recursive"
     },
     "bin": {
         "version-select": "cli.js"
