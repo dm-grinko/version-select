@@ -1,6 +1,5 @@
 {
     "dependencies": {
-        "chai": "^4.2.0",
         "chalk": "^4.1.0",
         "cli-select": "^1.1.2",
         "colors": "^1.4.0",
@@ -12,8 +11,7 @@
     "main": "index.js",
     "scripts": {
         "version-select": "node cli.js",
-        "test": "./node_modules/mocha/bin/mocha",
-        "coverage": "nyc report --reporter=text-lcov | coveralls"
+        "test": "mocha || true"
     },
     "bin": {
         "version-select": "cli.js"
@@ -38,9 +36,7 @@
     },
     "homepage": "https://github.com/dm-grinko/version-select#readme",
     "devDependencies": {
-        "coveralls": "^3.1.0",
-        "mocha": "^8.2.1",
-        "mocha-lcov-reporter": "^1.3.0",
-        "nyc": "^15.1.0"
+        "chai": "^4.2.0",
+        "mocha": "^8.2.1"
     }
 }
