@@ -7,7 +7,7 @@
     },
     "name": "version-select",
     "description": "This package allows you to update the version of the package.json file depending on the selected option.",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "main": "index.js",
     "scripts": {
         "version-select": "node cli.js",
