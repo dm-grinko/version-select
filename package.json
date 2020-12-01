@@ -12,7 +12,7 @@
     "main": "index.js",
     "scripts": {
         "version-select": "node cli.js",
-        "test": "nyc --reporter=html --reporter=text mocha",
+        "test": "./node_modules/mocha/bin/mocha",
         "coverage": "nyc report --reporter=text-lcov | coveralls"
     },
     "bin": {
