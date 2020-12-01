@@ -1,19 +1,20 @@
+sudo: false
+
 language: node_js
 
 node_js:
-- "10"
+  - "node"
 
 cache:
   npm: false
 
 before_install:
-- npm install -g mocha
+  - npm install -g mocha
 
 install:
-- npm i
-- npm i -D
+  - npm ci
 
 script:
-- npm run test
+  - npm run test
 
 after_success: npm run coverage
