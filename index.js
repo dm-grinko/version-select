@@ -18,7 +18,7 @@ const getAction = (question, values) => {
 }
 
 const getCurrentVersion = (fileData) => {
-    return fileData.version.split('.').map(item => Number(item));
+    return (fileData.version || "0.0.0").split('.').map(item => Number(item));
 }
 
 const getNewVersion = (version, action) => {
